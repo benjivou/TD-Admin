@@ -1,0 +1,18 @@
+Question 1 :
+Paramètre par défaut de connexion :
+{
+  PROTOCOL : TCP,
+  HOST : localhost,
+  PORT : 1521,
+  SERVICE_NAME : POLYTECH
+}
+
+QUESTION e :
+I. la commande sqlplus / AS SYMDBA ne demande aucun login et aucun mot de passe
+car on est identifier dans la session comme appartenant au groupe des administrateurs
+système. Donc la commande ne regarde les roles. Ceci permet que si nous devons allumer
+la Database il existe un moyen de se connecter sans avoir à accéder à la Database.
+
+II.  SHOW USER montre SYS car nous sommes l'utilisateur SYS
+
+2. SYSTEM sera alors retourné car nous seront connecté en tant que SYSTEM
